@@ -77,4 +77,4 @@ for stat in dp_rp_pitching_stat_columns:
     if stat in ['SO', 'SV', 'HLD']:
         calculate_percentiles(dp_rp[stat])
     else:
-        calculate__reverse_percentiles(dp_sp[stat])
+        calculate__reverse_percentiles(dp_rp[stat])
