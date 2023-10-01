@@ -43,7 +43,7 @@ year = input("What year are you calculating for?: ")
 
 hitter_data = batting_stats(year, qual=150)
 
-print("\n2022 BATTING DATA:\n")
+print("\n", year, "BATTING DATA:\n")
 print(hitter_data)
 
 dp_hitter_stat_columns = ['R','HR','RBI','SB','AVG','OPS']
